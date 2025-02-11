@@ -1,10 +1,11 @@
+from math import sqrt, ceil, floor, trunc
+
 # 1. Crie um programa que leia seu nome completo e mostre:
 # • Seu nome com todas as letras maiúsculas
 # • Seu nome com todas as letras minúsculas
 # • Quantas letras ao todo tem seu nome
 # • E como seria se trocássemos seu último nome para “do Inatel”
 
-from math import sqrt, ceil, floor, trunc
 print(f'{"="*10} Atividade 1 {"="*10}')
 
 nome_completo = input("Insira seu nome completo: ")
